@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.lmain-container{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-top: 21px;
+	padding: 50px 20px 200px 20px;
+}
+.lmain-container .main-wrap{
+	width:768px;
+
+}
+form#join {
+	padding: 30px;
+}
+
+/* /* 버튼꾸밈 시작*/ 
+/* input.submit { */
+/* 	background-color: #659EFF;  */
+/*   	border: none; */
+/*   	color: white; */
+/*   	cursor: pointer; */
+/*   	border-radius: 3px; */
+/* } */
+/* input.cancel { */
+/* 	background-color: #659EFF;  */
+/*   	border: none; */
+/*   	color: white; */
+/*   	cursor: pointer; */
+/*   	border-radius: 3px; */
+/* } */
+/* /* 버튼꾸밈 시작*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

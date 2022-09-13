@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+
+
+
+
+
+table, td, th {
+	width: 100%;
+/*   border: 1px solid; */
+/*   border-color: #008288; */
+  	text-align: center;
+}
+/* #wrap { */
+/* 	width: 70%; */
+/* 	text-align: center; */
+/* } */
+article {
+	width: 80%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+form {
+	float: right;
+	cursor: pointer;
+	background-color: #ffffff;
+	padding: 10px;
+}
+#page_control {
+	text-align: center;
+	padding: 10px;
+}
+table {
+  border-collapse: collapse;
+  
+}
+
+th, td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 테이블 사이즈 조절 */
+td#tnum, th.tno {
+	width: 30px;
+}
+td#tsub, th.ttitle {
+	width: 600px;
+}
+td#tname, th.twrite {
+	width: 50px;
+}
+td#tdate, th.tdate {
+	width: 50px;
+}
+td#tcount, th.tread {
+	width: 50px;
+}
+
+
+tr:hover {
+/* 	background-color: coral;  */
+			cursor: pointer;}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th {
+	background: #293239;
+	color: #AAAEB0;
+}
+#btn {
+	
+	padding: 5px;
+	 background-color: #659EFF; 
+ 	 border: none;
+ 	 color: white;
+	 width: 20%;
+	 cursor: pointer;
+}
+.btn {
+	
+	padding: 5px;
+	 background-color: #659EFF; 
+ 	 border: none;
+ 	 color: white;
+	 width: 40px;
+	 cursor: pointer;
+}
+
+div#table_search {
+	padding: 5px;
+}
+
+
+
+

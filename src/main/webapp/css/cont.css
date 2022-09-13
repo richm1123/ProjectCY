@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.main-cont {
+/* 	background-color: grey; */
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-top: 21px;
+	padding: 3px 20px 10px 20px;
+	
+}
+table#notice {
+	width: 800px;
+	height: 700px;
+	border: 1px;
+	border-collapse: collapse;
+	
+}
+
+.cont {
+	height: 600px;
+}
+input.btnn {
+	 background-color: #659EFF; 
+ 	 border: none;
+ 	 color: white;
+	 width: 100px;
+	 padding: 10px;
+	 cursor: pointer;
+	 margin: 10px;
+	 
+}
+
+td {
+	border: 1px solid grey;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
