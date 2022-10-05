@@ -93,7 +93,7 @@
    for(int i = 0; i < boardList.size(); i++){
 	   BoardDTO boardDTO = (BoardDTO)boardList.get(i);
 	 if(id!=null){  // 아이디 널값이 아닐경우 아이디값을 비교 
-	   if(id.equals(boardDTO.getName()) || id.equals("root")){ //일치하면 본인글 읽을수있음
+	   if(id.equals(boardDTO.getName()) || id.equals("admin")){ //일치하면 본인글 읽을수있음
 	%>
 	   <tr onclick="location.href='content.jsp?num=<%=boardDTO.getNum()%>'">
 	<% }else if(!id.equals((boardDTO.getName()))) { // 게시글 아이디와 일치하지 않으면 경고창 %>

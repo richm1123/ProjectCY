@@ -121,7 +121,7 @@
 // 		String id=(String)session.getAttribute("id");
 // 아이디가 관리자면 글쓰기 버튼 보이기
     if(id!=null){
-		if(id.equals("root")){
+		if(id.equals("admin")){
 	%>
 		<input type="button" value="글쓰기" id="btn" class="btn" 
   		onclick="location.href='gwrite.jsp'">

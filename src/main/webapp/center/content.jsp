@@ -56,7 +56,7 @@ boardDAO.updateReadcount(num);
 					// 글수정 글삭제  => 로그인(세션값) , 글쓴이 일치하면 글수정, 글삭제 버튼이 보이게
 					String id=(String)session.getAttribute("id");
 					if(id!=null){
-						if(id.equals(boardDTO.getName()) || id.equals("root")){
+						if(id.equals(boardDTO.getName()) || id.equals("admin")){
 				%>
 				<input type="button" value="글수정" class="btnn" 
   					onclick="location.href='update.jsp?num=<%=boardDTO.getNum()%>'">
